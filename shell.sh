@@ -15,11 +15,11 @@ MAC_820="00:00:00:00"
 MAC_840="00:00:00:00"
 
 # 760
-if [ $1 = 760 ]
+if [[ $1 = 760 ]]
 then
     echo "Getting files from RPi on 760..."
     ping -q -c5 $HOST_760 > /dev/null
-    if [ $? -gt 0 ]
+    if [[ $? -gt 0 ]]
     then
         echo "Out of range. Check if $MAC_760 is connected in the same network."
         exit 1
@@ -30,11 +30,11 @@ then
 fi
 
 # 790
-if [ $1 = 790 ]
+if [[ $1 = 790 ]]
 then
     echo "Getting files from RPi on 790..."
     ping -q -c5 $HOST_790 > /dev/null
-    if [ $? -gt 0 ]
+    if [[ $? -gt 0 ]]
     then
         echo "Out of range. Check if $MAC_790 is connected in the same network."
         exit 1
@@ -45,11 +45,11 @@ then
 fi
 
 # 800
-if [ $1 = 800 ]
+if [[ $1 = 800 ]]
 then
     echo "Getting files from RPi on 800..."
     ping -q -c5 $HOST_800 > /dev/null
-    if [$? -gt 0]
+    if [[$? -gt 0]]
     then
         echo "Out of range. Check if $MAC_800 is connected in the same network."
         exit 1
@@ -60,11 +60,11 @@ then
 fi
 
 # 820
-if [ $1 = 820 ]
+if [[ $1 = 820 ]]
 then
     echo "Getting files from RPi on 820..."
     ping -q -c5 $HOST_820 > /dev/null
-    if [$? -gt 0]
+    if [[$? -gt 0]]
     then
         echo "Out of range. Check if $MAC_820 is connected in the same network."
         exit 1
@@ -75,11 +75,11 @@ then
 fi
 
 # 840
-if [ $1 = 840 ]
+if [[ $1 = 840 ]]
 then
     echo "Getting files from RPi on 840..."
     ping -q -c5 $HOST_840 > /dev/null
-    if [$? -gt 0]
+    if [[$? -gt 0]]
     then
         echo "Out of range. Check if $MAC_840 is connected in the same network."
         exit 1
