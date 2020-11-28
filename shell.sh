@@ -52,7 +52,7 @@ if [[ $1 = 800 ]]
 then
     echo "Getting files from RPi on 800..."
     ping -q -c5 $HOST_800 > /dev/null
-    if [[$? -gt 0]]
+    if [[ $? -gt 0 ]]
     then
         echo "Out of range. Check if $MAC_800 is connected in the same network."
         exit 1
@@ -68,7 +68,7 @@ if [[ $1 = 820 ]]
 then
     echo "Getting files from RPi on 820..."
     ping -q -c5 $HOST_820 > /dev/null
-    if [[$? -gt 0]]
+    if [[ $? -gt 0 ]]
     then
         echo "Out of range. Check if $MAC_820 is connected in the same network."
         exit 1
@@ -84,7 +84,7 @@ if [[ $1 = 840 ]]
 then
     echo "Getting files from RPi on 840..."
     ping -q -c5 $HOST_840 > /dev/null
-    if [[$? -gt 0]]
+    if [[ $? -gt 0 ]]
     then
         echo "Out of range. Check if $MAC_840 is connected in the same network."
         exit 1
