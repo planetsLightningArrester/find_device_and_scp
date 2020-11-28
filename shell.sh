@@ -27,6 +27,7 @@ then
     fi
 
     scp -r pi@$HOST_760:/home/pi/OS1783/2020-12/* ~/storage/shared/Termux/OS1783/2020-12/
+    echo "Done!"
     exit 0
 fi
 
@@ -42,6 +43,7 @@ then
     fi
 
     scp -r pi@$HOST_790:/home/pi/OS1783/2020-12/* ~/storage/shared/Termux/OS1783/2020-12/
+    echo "Done!"
     exit 0
 fi
 
@@ -57,6 +59,7 @@ then
     fi
 
     scp -r pi@$HOST_800:/home/pi/OS1783/2020-12/* ~/storage/shared/Termux/OS1783/2020-12/
+    echo "Done!"
     exit 0
 fi
 
@@ -72,6 +75,7 @@ then
     fi
 
     scp -r pi@$HOST_820:/home/pi/OS1783/2020-12/* ~/storage/shared/Termux/OS1783/2020-12/
+    echo "Done!"
     exit 0
 fi
 
@@ -87,5 +91,6 @@ then
     fi
 
     scp -r pi@$HOST_840:/home/pi/OS1783/2020-12/* ~/storage/shared/Termux/OS1783/2020-12/
+    echo "Done!"
     exit 0
 fi
